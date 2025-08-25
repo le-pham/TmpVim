@@ -2,7 +2,7 @@
 
 ## Description
 
-A python script to copy currently selected text into a buffer and allows for editing in personal external text editor.
+A Python script that copies the currently selected text to the system clipboard and then opens it in an external text editor for modification.
 
 ## How to use
 
