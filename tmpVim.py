@@ -12,6 +12,10 @@ if not os.path.exists(tempDir):
 tempAddr = os.path.join(tempDir, 'buffer')
 
 keyboard.press(Key.ctrl)
+keyboard.press('a')
+keyboard.release(Key.ctrl)
+keyboard.release('a')
+keyboard.press(Key.ctrl)
 keyboard.press('c')
 keyboard.release('c')
 keyboard.release(Key.ctrl)
